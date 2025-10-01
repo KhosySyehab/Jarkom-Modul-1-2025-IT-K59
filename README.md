@@ -72,3 +72,10 @@ Setelah insiden penyadapan Telnet, Eru memerintahkan semua koneksi administratif
 <img width="813" height="524" alt="Screenshot 2025-09-30 040131" src="https://github.com/user-attachments/assets/a5467308-520f-4f36-a0b8-458db956dbfe" />
 <img width="1217" height="991" alt="Screenshot 2025-09-30 040052" src="https://github.com/user-attachments/assets/d1988fa4-4653-49ec-a9e4-8b96316fa2d1" />
 
+## NO.17 
+
+## NO.18
+
+## NO.19
+
+## NO.20
