@@ -1,0 +1,2 @@
+sha256sum invest_20.dll
+31cf42b2a7c5c558f44cfc67684cc344c17d4946d3a1e0b2cecb8eb58173cb2f invest_20.dll
