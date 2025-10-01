@@ -73,9 +73,21 @@ Setelah insiden penyadapan Telnet, Eru memerintahkan semua koneksi administratif
 <img width="1217" height="991" alt="Screenshot 2025-09-30 040052" src="https://github.com/user-attachments/assets/d1988fa4-4653-49ec-a9e4-8b96316fa2d1" />
 
 ## NO.17 
+<img width="1463" height="694" alt="Screenshot 2025-10-01 142929" src="https://github.com/user-attachments/assets/50bc27d0-8e4a-489e-b05c-0530c9719266" />
+<img width="943" height="675" alt="Screenshot 2025-10-01 142939" src="https://github.com/user-attachments/assets/5cda9ea0-4a8f-4cdc-8ed1-548312f68026" />
+<img width="1391" height="754" alt="Screenshot 2025-10-01 142949" src="https://github.com/user-attachments/assets/23aa5fba-6b58-419d-b1b2-381657b2933f" />
 
 ## NO.18
+<img width="952" height="1018" alt="Screenshot 2025-10-01 172912" src="https://github.com/user-attachments/assets/24d6d462-7267-4060-b519-eaa94130d67c" />
+<img width="935" height="695" alt="Screenshot 2025-10-01 144916" src="https://github.com/user-attachments/assets/fe554f07-bf0a-4b80-9627-5aa9d527bfaf" />
 
 ## NO.19
-
+<img width="914" height="436" alt="Screenshot 2025-10-01 173837" src="https://github.com/user-attachments/assets/3730b956-93cb-46d7-95eb-033d5c8c15ed" />
+<img width="1007" height="767" alt="Screenshot 2025-10-01 173353" src="https://github.com/user-attachments/assets/7b99a7a2-cf13-46a5-a513-7f9328008879" />
+<img width="934" height="1008" alt="Screenshot 2025-10-01 173711" src="https://github.com/user-attachments/assets/824233fc-18d4-4453-b436-f930274ff28b" />
+<img width="546" height="178" alt="Screenshot 2025-10-01 173814" src="https://github.com/user-attachments/assets/4444317f-d761-4e88-85f1-fad0281559a2" />
 ## NO.20
+<img width="948" height="534" alt="Screenshot 2025-10-01 174911" src="https://github.com/user-attachments/assets/092d114f-0652-49b2-8ff6-a863999ad538" />
+<img width="1036" height="948" alt="Screenshot 2025-10-01 174151" src="https://github.com/user-attachments/assets/3d0652cf-9918-4d2d-8beb-45ea872cc116" />
+<img width="1044" height="952" alt="Screenshot 2025-10-01 174209" src="https://github.com/user-attachments/assets/4560e5e6-0ab9-4485-92e6-a2f5826e7fc0" />
+
