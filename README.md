@@ -10,17 +10,17 @@ Sebuah kisah awal mula pembentukan dunia telah dibuka. Eru Ilúvatar atau yang n
 
 ## NO.1
 Untuk mempersiapkan pembuatan entitas selain mereka, Eru yang berperan sebagai Router membuat dua Switch/Gateway. Dimana Switch 1 akan menuju ke dua Ainur yaitu Melkor dan Manwe. Sedangkan Switch 2 akan menuju ke dua Ainur lainnya yaitu Varda dan Ulmo. Keempat Ainur tersebut diberi perintah oleh Eru untuk menjadi Client.
-
+<img width="1284" height="688" alt="Screenshot 2025-10-04 232252" src="https://github.com/user-attachments/assets/d84624bb-1c88-49e2-87db-e6abe498e6c9" />
 Di GNS3: buat node Eru, tambahkan 3 NIC (eth0 ke NAT, eth1 ke Switch1, eth2 ke Switch2). Buat Switch1, connect `eth1 Eru → Switch1 → Melkor & Manwe`. Buat Switch2, `connect eth2 Eru → Switch2 → Varda & Ulmo`.
 
 ## NO.2
 Karena menurut Eru pada saat itu Arda (Bumi) masih terisolasi dengan dunia luar, maka buat agar Eru dapat tersambung ke internet.
-
+<img width="1284" height="688" alt="Screenshot 2025-10-04 232252" src="https://github.com/user-attachments/assets/a1da3d7b-8b50-4e88-9369-2067b773d61b" />
 Pastikan eth0 Eru terhubung ke NAT. Bila perlu gunakan DHCP: `dhclient eth0 && ip addr show eth0`. Set DNS `echo "nameserver 8.8.8.8" > /etc/resolv.conf`. Tes menggunakan `ping -c 3 8.8.8.8  && ping -c 3 google.com`
 
 ## NO.3
 Sekarang pastikan agar setiap Ainur (Client) dapat terhubung satu sama lain.
-
+<img width="1284" height="688" alt="Screenshot 2025-10-04 232252" src="https://github.com/user-attachments/assets/943425f8-a020-42cd-9de5-191ba6c8c683" />
 Di setiap client, cek: `ping -c 3 10.93.1.2` dan semua client yang ada.
 
 ## NO.4
@@ -30,7 +30,7 @@ Tambahkan rule NAT `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.9
 
 ## NO.5
 Ainur terkuat Melkor tetap berusaha untuk menanamkan kejahatan ke dalam Arda (Bumi). Sebelum terjadi kerusakan, Eru dan para Ainur lainnya meminta agar semua konfigurasi tidak hilang saat semua node di restart.Ainur terkuat Melkor tetap berusaha untuk menanamkan kejahatan ke dalam Arda (Bumi). Sebelum terjadi kerusakan, Eru dan para Ainur lainnya meminta agar semua konfigurasi tidak hilang saat semua node di restart.
-
+<img width="1284" height="688" alt="Screenshot 2025-10-04 232252" src="https://github.com/user-attachments/assets/82a38192-2f39-4a3a-9cc0-2f6475b73608" />  
 Letakkan pengaturan otomatis di .bashrc (dengan pengecekan idempotent — see next). Buat /root/.bashrc yang menjalankan konfigurasi awal sekali (cek file flag /root/.eru_config_done). Setelah restart node, jalankan `ip addr show`, `cat /etc/resolv.conf`.
 
 ## NO.6 
@@ -150,17 +150,17 @@ Setelah insiden penyadapan Telnet, Eru memerintahkan semua koneksi administratif
 ## NO.14
 Setelah gagal mengakses FTP, Melkor melancarkan serangan brute force terhadap  Manwe. Analisis file capture yang disediakan dan identifikasi upaya brute force Melkor. 
 (https://drive.google.com/drive/folders/13rf0AlzUrkNhUWbBNt9tIVSimw3njKqd?usp=sharing) `nc 10.15.43.32 3401`
-
+<img width="1919" height="1079" alt="Screenshot 2025-09-30 192308" src="https://github.com/user-attachments/assets/b6e28cd0-4540-4e62-8759-47bbf9fb9e04" />
 
 ## NO.15
 Melkor menyusup ke ruang server dan memasang keyboard USB berbahaya pada node Manwe. Buka file capture dan identifikasi pesan atau ketikan (keystrokes) yang berhasil dicuri oleh Melkor untuk menemukan password rahasia.
 (https://drive.google.com/drive/folders/1aHSRMoEgQBsA-4I2wWatFxAy3laumcgb?usp=sharing) `nc 10.15.43.32 3402`
-
+<img width="1479" height="768" alt="Screenshot 2025-09-30 221443" src="https://github.com/user-attachments/assets/4782bcab-ce28-41ef-bc91-2a1dac3a55f8" />
 
 ## NO.16
 Melkor semakin murka ia meletakkan file berbahaya di server milik Manwe. Dari file capture yang ada, identifikasi file apa yang diletakkan oleh Melkor.
 (https://drive.google.com/drive/folders/1aJf_PQGXwr4fxd79df8nd7NzL7SsN6U9?usp=sharing) `nc 10.15.43.32 3403`
-
+<img width="1919" height="1079" alt="Screenshot 2025-09-30 192308" src="https://github.com/user-attachments/assets/091ce92b-5381-44d6-86b0-7a5872041df6" />
 
 ## NO.17 
 Manwe membuat halaman web di node-nya yang menampilkan gambar cincin agung. Melkor yang melihat web tersebut merasa iri sehingga ia meletakkan file berbahaya agar web tersebut dapat dianggap menyebarkan malware oleh Eru. Analisis file capture untuk menggagalkan rencana Melkor dan menyelamatkan web Manwe.
