@@ -59,6 +59,7 @@ Sebelum era koneksi aman, Eru sering menyelinap masuk ke wilayah Melkor. Eru per
   
 <img width="1643" height="513" alt="Screenshot 2025-09-30 032730" src="https://github.com/user-attachments/assets/a2e6aeab-47e7-4be0-bdee-c7c1e10b2879" />
 <img width="1297" height="1024" alt="Screenshot 2025-09-30 032621" src="https://github.com/user-attachments/assets/f3b49e21-ed06-4d4f-b787-7c9751ed1125" />
+<img width="1335" height="1024" alt="image" src="https://github.com/user-attachments/assets/476626af-4559-4a0c-9df1-6cb7785b3aa0" />
 
 ## NO.12  
 Eru mencurigai Melkor menjalankan beberapa layanan terlarang di node-nya. Lakukan pemindaian port sederhana dari node Eru ke node Melkor menggunakan Netcat (nc) untuk memeriksa port 21, 80, dalam keadaan terbuka dan port rahasia 666 dalam keadaan tertutup.  
